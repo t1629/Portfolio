@@ -1,0 +1,99 @@
+{
+  "about": {
+    "start": "¡Hola! Soy Tomás Burique 👋🏻",
+    "title": "Sobre mi",
+    "text": "Soy un desarollador ",
+    "development": ["Front-end ", "Back-end ", "Full Stack"],
+    "information": "Estudiante de desarrollo de software, apasionado por el constante aprendizaje y la mejora de mis habilidades. Busco siempre actualizarme con las tecnologías y trabajar de forma ordenada, organizada y en equipo. Mantengo una práctica constante y estudio de manera académica y autodidacta, pudiendo desarrollar una pasión por el diseño web, el back-end y el manejo de bases de datos.",
+    "skill_information": "Me apasiona estudiar y me encantan los idiomas, contando con estudios en el idioma inglés y actualmente sigo aprendiendo de forma autodidacta, buscando mejorar cada vez más para complementar mis habilidades en este rubro.",
+    "passion_information": "Mi objetivo es continuar mejorando como desarrollador, fortaleciendo mis habilidades técnicas y también mi capacidad de trabajo en equipo, colaborando de manera conjunta y complementándolo con la inteligencia artificial como herramienta de trabajo y estudio.",
+    "button_download": "Descarga mi CV"
+  },
+  "technologies": {
+    "title": " Stack Tecnológico",
+    "technologies_title": "Tecnologías",
+    "tools": "Herramientas"
+  },
+  "education": {
+    "title": "Educación",
+    "sub_title": "Formacion Académica",
+    "item": [
+      {
+        "university": "Instituto Superior Cervantes",
+        "text": "Tecnicatura en Desarrollo web y Aplicaciones Digitales",
+        "date": "2025 - acutalidad"
+      },
+      {
+        "university": "Facultad de Lenguas de la Universidad Nacional de Córdoba",
+        "text": "Curso de Ingles nivel A1 / certificado",
+        "date": "2025 - 2025",
+        "text_download": "Descargar certificado A1",
+        "certification": "../assets/certification_A1.pdf"
+      },
+      {
+        "university": "Facultad de Lenguas de la Universidad Nacional de Córdoba",
+        "text": "Curso de Ingles nivel A2 / certificado",
+        "date": "2025 - 2025",
+        "text_download": "Descargar certificado A2",
+        "certification": "../assets/certification_A2.pdf"
+      },
+      {
+        "university": "Estudio Autodidacta",
+        "text": "Ingles nivel B2",
+        "date": "2026 - actualidad"
+      }
+    ]
+  },
+  "projects": {
+    "title": "</> Proyectos",
+    "allProjects": [
+      {
+        "name": "Harry Potter",
+        "description": "Pagina de Harry Potter, con un llamado a una Fake API para obtener datos y aplicar un CRUD ",
+        "link": "https://t1629.github.io/Harry-Potter/",
+        "text_link": "Ver proyecto",
+        "text_code": "Ver codigo",
+        "code_link": "https://github.com/t1629/Harry-Potter.git",
+        "technologies_used": "Tecnologías utilizadas",
+        "technologies": ["HTML", "CSS", "JavaScript", "React"]
+      },
+      {
+        "name": "Mindora (Web + API)",
+        "description": "Aplicación web para psicólogos para gestionar pacientes y turnos. Incluye API backend (C# .NET + SQL Server) y web frontend (React)",
+        "link": "https://github.com/t1629/psico-tools.git",
+        "text_link": "Ver proyecto",
+        "text_code": "Ver codigo",
+        "code_link": "https://github.com/t1629/psico-tools.git",
+        "technologies_used": "Tecnologías utilizadas",
+        "technologies": ["React", "C# .NET", "SQL Server", "REST API"]
+      },
+      {
+        "name": "Mindora (Mobile)",
+        "description": "Aplicación móvil construida con React Native + Expo, conectada al mismo backend API para gestionar pacientes y turnos",
+        "link": "https://github.com/Seizen-Asato/psicologo-mobile.git",
+        "text_link": "Ver proyecto",
+        "text_code": "Ver codigo",
+        "code_link": "https://github.com/Seizen-Asato/psicologo-mobile.git",
+        "technologies_used": "Tecnologías utilizadas",
+        "technologies": ["React Native", "Expo", "TypeScript", "REST API"]
+      }
+    ]
+  },
+  "habilities": {
+    "title": "Habilidades Blandas",
+    "skills": [
+      {
+        "name": "Trabajo en equipo",
+        "description": "Tengo experiencia trabajando en equipos, colaborando de manera efectiva y contribuyendo al logro de objetivos comunes. También he asumido roles de liderazgo, coordinando tareas y supervisando el trabajo de los miembros del equipo."
+      },
+      {
+        "name": "Resolución de problemas",
+        "description": "Soy altamente analítico, descompongo problemas complejos en componentes más pequeños para identificar soluciones e implementarlas de manera eficiente."
+      },
+      {
+        "name": "Comunicación",
+        "description": "Trabajé como asesor de ventas, lo que me dio la oportunidad de desarrollar sólidas habilidades de comunicación."
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+.social-icon a {
+  text-decoration: none;
+}
+
+#mail {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #b3b3b3;
+  font-weight: 500;
+}
+
+#mail svg {
+  transition:
+    fill 0.3s,
+    transform 0.3s;
+}
+
+#mail:hover svg {
+  fill: #a9af01;
+  transform: scale(1.1);
+}
+
+#mail:hover span {
+  color: #a9af01;
+}

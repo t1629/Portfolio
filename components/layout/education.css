@@ -1,0 +1,52 @@
+@keyframes borderPulse {
+  0% {
+    border-bottom-color: #a9af01;
+  }
+  50% {
+    border-bottom-color: #374151;
+  }
+  100% {
+    border-bottom-color: #a9af01;
+  }
+}
+
+section#education h3#education_sub_title {
+  display: flex;
+  justify-content: center;
+}
+
+h3#education_sub_title {
+  border-bottom: 2px solid #a9af01;
+  animation: borderPulse 3s infinite;
+  padding-bottom: 0.5rem;
+}
+
+section#education a {
+  text-decoration: none;
+  padding: 6px 12px;
+  border: 2px solid #ef4444;
+  border-radius: 8px;
+  background-color: rgba(175, 1, 1, 0.05);
+  color: #ef4444;
+  font-size: 0.9rem;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+}
+
+section#education a:hover {
+  transform: scale(1.05);
+  background-color: #ef4444;
+  color: #111;
+}
+
+#education_container {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.education_item {
+  margin: 30px;
+  padding-bottom: 2rem;
+  border-bottom: 2px dashed rgba(169, 175, 1, 0.6);
+}
