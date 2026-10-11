@@ -1,0 +1,13 @@
+section#habilities {
+  width: 90%;
+  padding: 2rem;
+  margin-top: 4rem;
+}
+
+.skill_item {
+  margin: 1rem;
+}
+
+.skill_item h4 {
+  padding-bottom: 0.5rem;
+}

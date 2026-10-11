@@ -1,0 +1,103 @@
+{
+  "about": {
+    "start": "¡Hello! I'm Tomás Burique 👋🏻",
+    "title": "About me",
+    "text": "I'm a",
+    "development": [
+      "Front-end Developer",
+      "Back-end Developer",
+      "Full Stack Developer"
+    ],
+    "information": "Software development student, passionate about continuous learning and improving my skills. I always seek to stay updated with new technologies and work in an organized, structured, and collaborative way. I maintain constant practice and study both academically and independently, developing a passion for web design, back-end development, and database management.",
+    "skill_information": "I'm passionate about studying and I love languages. I have studied English and I'm currently continuing to learn it independently, constantly striving to improve in order to complement my skills in this field.",
+    "passion_information": "My goal is to continue improving as a developer, strengthening my technical skills as well as my teamwork abilities, collaborating effectively and complementing them with artificial intelligence as a tool for work and study.",
+    "button_download": "Download my CV"
+  },
+  "technologies": {
+    "title": "Stack Tecnológico",
+    "technologies_title": "Technologies",
+    "tools": "Tools"
+  },
+  "education": {
+    "title": "Education",
+    "sub_title": "Academic Training",
+    "item": [
+      {
+        "university": "Instituto Superior Cervantes",
+        "text": "Technician in Web Development and Digital Applications",
+        "date": "2025 - present"
+      },
+      {
+        "university": "Faculty of Languages of the National University of Córdoba",
+        "text": "English course level A1 / certificate",
+        "date": "2025 - 2025",
+        "text_download": "Download A1 certificate",
+        "certification": "../assets/certification_A1.pdf"
+      },
+      {
+        "university": "Faculty of Languages of the National University of Córdoba",
+        "text": "English course level A2 / certificate",
+        "date": "2025 - 2025",
+        "text_download": "Download A2 certificate",
+        "certification": "../assets/certification_A2.pdf"
+      },
+      {
+        "university": "Self-taught Study",
+        "text": "English level B2",
+        "date": "2026 - present"
+      }
+    ]
+  },
+  "projects": {
+    "title": "</> Projects",
+    "allProjects": [
+      {
+        "name": "Harry Potter",
+        "description": "Harry Potter page, with a call to a Fake API to obtain data and apply a CRUD",
+        "link": "https://t1629.github.io/Harry-Potter/",
+        "text_link": "View project",
+        "text_code": "View code",
+        "code_link": "https://github.com/t1629/Harry-Potter.git",
+        "technologies_used": "Technologies used",
+        "technologies": ["HTML", "CSS", "JavaScript", "React"]
+      },
+      {
+        "name": "Mindora (Web + API)",
+        "description": "Web application for psychologists to manage patients and appointments. Includes backend API (C# .NET + SQL Server) and frontend web (React)",
+        "link": "https://github.com/t1629/psico-tools.git",
+        "text_link": "View project",
+        "text_code": "View code",
+        "code_link": "https://github.com/t1629/psico-tools.git",
+        "technologies_used": "Technologies used",
+        "technologies": ["React", "C# .NET", "SQL Server", "REST API"]
+      },
+      {
+        "name": "Mindora (Mobile)",
+        "description": "Mobile app built with React Native + Expo, connected to the same API backend to manage patients and appointments",
+        "link": "https://github.com/Seizen-Asato/psicologo-mobile.git",
+        "text_link": "View project",
+        "text_code": "View code",
+        "code_link": "https://github.com/Seizen-Asato/psicologo-mobile.git",
+        "technologies_used": "Technologies used",
+        "technologies": ["React Native", "Expo", "TypeScript", "REST API"]
+      }
+    ]
+  },
+  "habilities": {
+    "title": "Soft Skills",
+    "skills": [
+      {
+        "name": "Teamwork",
+        "description": "I have experience working in teams, collaborating effectively and contributing to achieving common goals. I have also taken on leadership roles, coordinating tasks and supervising team members’ work."
+      },
+      {
+        "name": "Problem Solving",
+        "description": "I am highly analytical, breaking down complex problems into smaller components to identify solutions and implement them efficiently."
+      },
+      {
+        "name": "Communication",
+        "description": "I worked as a sales adviser, which gave me the opportunity to develop strong communication skills."
+      }
+    ]
+  }
+}

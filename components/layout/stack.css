@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  background-color: #0e0e0e;
+  color: #eaeaea;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  padding: 2rem 0 6rem;
+}
+
+/* ======== SECCIONES ======== */
+section#education,
+section#technologies {
+  padding: 2rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+section#education {
+  width: 80%;
+  max-width: 1000px;
+}
+section#technologies {
+  width: 80%;
+}
+section#projects {
+  margin: 50px;
+}
+section#about {
+  width: 90%;
+  padding: 2rem;
+}
+#me_d {
+  display: flex;
+  justify-content: start;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Starjhol";
+  src: url("/assets/star_jedi/starjedi/Starjhol.ttf") format("truetype");
+}
+section#about p#text,
+section#about p#development {
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: "Starjhol", sans-serif;
+  color: #f5d142;
+  line-height: 50px;
+  font-size: 24px;
+}
+
+section#about p#information,
+section#about p#skill_information,
+section#about p#passion_information {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+section#education:hover,
+section#technologies:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 25px rgba(169, 175, 1, 0.3);
+}
+
+/* ======== TITULOS ======== */
+
+@font-face {
+  font-family: "StarJedi";
+  src: url("/assets//star_jedi/starjedi/Starjedi.ttf") format("truetype");
+}
+h1,
+h2,
+h3 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+@keyframes borderPulse {
+  0% {
+    border-bottom-color: #a9af01;
+  }
+  50% {
+    border-bottom-color: #374151;
+  }
+  100% {
+    border-bottom-color: #a9af01;
+  }
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "StarJedi", sans-serif;
+  color: #f5d142;
+  text-shadow: 2px 2px 4px #000;
+}
+
+h2 {
+  font-size: 1.8rem;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid #a9af01;
+  animation: borderPulse 3s infinite;
+}
+
+section#projects {
+  width: 90%;
+  padding: 2rem;
+}
+
+section#projects h2#project_title {
+  display: inline-block; /* mantiene el borde solo bajo el texto */
+  font-size: 35px;
+  width: auto;
+}
+
+/* ======== TEXTO ======== */
+p {
+  font-size: 1rem;
+  color: #e8e5e5;
+  margin-bottom: 1rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* ======== ICONOS SOCIALES ======== */
+.social-icon {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1.2rem;
+  margin: 1rem 0;
+}
+
+.social-icon a svg {
+  fill: #eaeaea;
+  transition:
+    fill 0.3s,
+    transform 0.3s;
+}
+
+.social-icon a:hover svg {
+  fill: #a9af01;
+  transform: scale(1.2);
+}
+
+/* ======== BOTÓN CV ======== */
+#button_download {
+  display: inline-block;
+  background-color: #111111;
+  color: #a9af01;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: #a9af01 solid;
+  text-decoration: none;
+  transition:
+    background-color 0.3s,
+    transform 0.3s;
+}
+
+#button_download:hover {
+  background-color: #a9af01;
+  color: #111111;
+  transform: scale(1.05);
+}
+
+/* ======== TECNOLOGÍAS ======== */
+
+#technologies_title img {
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+.tech-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: start;
+  margin-top: 1.5rem;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 14px;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+  padding: 10px;
+}
+
+.tech-item:hover {
+  transform: scale(1.1);
+  color: #a9af01;
+}
+
+.tech-item img {
+  width: 40px;
+  height: 40px;
+}
+
+/* ======== TOOLS ======== */
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: start;
+  margin-top: 1.5rem;
+}
+
+.tool-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 14px;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
+
+.tool-item:hover {
+  transform: scale(1.1);
+  color: #a9af01;
+}
+
+.tool-item svg {
+  width: 40px;
+  height: 40px;
+}
+
+/* ======== EFECTO FADE ======== */
+.fade {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+/* ======== RESPONSIVE ======== */
+@media (max-width: 768px) {
+  section {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .tech-icons img {
+    width: 30px;
+    height: 30px;
+  }
+}
