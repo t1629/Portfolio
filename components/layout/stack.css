@@ -151,15 +151,15 @@ p {
   margin: 1rem 0;
 }
 
-.social-icon a svg {
-  fill: #eaeaea;
+.social-icon a i {
+  color: #eaeaea;
   transition:
-    fill 0.3s,
+    color 0.3s,
     transform 0.3s;
 }
 
-.social-icon a:hover svg {
-  fill: #a9af01;
+.social-icon a:hover i {
+  color: #a9af01;
   transform: scale(1.2);
 }
 
