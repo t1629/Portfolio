@@ -4,7 +4,7 @@ let index = 0;
 let jobInterval;
 
 async function loadNav() {
-  const res = await fetch("/components/layout/Nav.html");
+  const res = await fetch("components/layout/Nav.html");
   const html = await res.text();
   document.getElementById("nav-container").innerHTML = html;
   setupLangSwitch();
