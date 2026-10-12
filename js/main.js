@@ -4,9 +4,10 @@ let index = 0;
 let jobInterval;
 
 async function loadNav() {
-  const res = await fetch("../components/layout/Nav.html");
+  const res = await fetch("/components/layout/Nav.html");
   const html = await res.text();
   document.getElementById("nav-container").innerHTML = html;
+  setupLangSwitch();
 }
 function setupLangSwitch() {
   const langSwitch = document.getElementById("lang-switch");
@@ -145,8 +146,7 @@ function startJobAnimation() {
   jobInterval = setInterval(changeJob, 4000);
 }
 
-(async () => {
+document.addEventListener("DOMContentLoaded", async () => {
   await loadNav();
-  setupLangSwitch();
   await loadLang(currentLang);
-})();
+});

@@ -58,11 +58,10 @@ section#about {
 
 @font-face {
   font-family: "Starjhol";
-  src: url("/assets/star_jedi/starjedi/Starjhol.ttf") format("truetype");
+  src: url("../../assets/star_jedi/starjedi/Starjhol.ttf") format("truetype");
 }
 section#about p#text,
 section#about p#development {
-  /* font-family: "Courier New", Courier, monospace; */
   font-family: "Starjhol", sans-serif;
   color: #f5d142;
   line-height: 50px;
@@ -86,7 +85,7 @@ section#technologies:hover {
 
 @font-face {
   font-family: "StarJedi";
-  src: url("/assets//star_jedi/starjedi/Starjedi.ttf") format("truetype");
+  src: url("../../assets/star_jedi/starjedi/Starjedi.ttf") format("truetype");
 }
 h1,
 h2,
