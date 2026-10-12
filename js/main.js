@@ -4,10 +4,17 @@ let index = 0;
 let jobInterval;
 
 async function loadNav() {
-  const res = await fetch("components/layout/Nav.html");
-  const html = await res.text();
-  document.getElementById("nav-container").innerHTML = html;
-  setupLangSwitch();
+  try {
+    const res = await fetch("components/layout/Nav.html");
+    if (!res.ok) {
+      throw new Error(`Error al cargar Nav.html: ${res.status}`);
+    }
+    const html = await res.text();
+    document.getElementById("nav-container").innerHTML = html;
+    setupLangSwitch();
+  } catch (err) {
+    console.error("No se pudo cargar la navegación:", err);
+  }
 }
 function setupLangSwitch() {
   const langSwitch = document.getElementById("lang-switch");
